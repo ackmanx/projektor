@@ -87,8 +87,8 @@ const TestCaseFailurePanel = ({
           data-testid={`test-case-title-${testCaseIdentifier}`}
         >
           <span data-testid="test-case-title">
-            {testCase.packageName || testCase.testSuiteName || ""}.
-            {testCase.className} {testCase.name}
+            {testCase.packageName || testCase.testSuiteName || ""} /
+            {testCase.className} / {testCase.name}
           </span>
           {testCase.fileName && (
             <span
